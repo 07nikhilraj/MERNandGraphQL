@@ -31,6 +31,11 @@ The project follows a typical MERN project structure:
   - `graphql`: Includes GraphQL queries and mutations defined using Apollo Client.
   - `App.js`: The main component that sets up the routes and Apollo Client.
 --------------------------------------------
+### Why GraphQL over REST APIs?
+* With REST APIs, clients often receive fixed data structures that may include unnecessary or excessive data. In contrast, GraphQL allows clients to specify precisely what data they need, enabling efficient and customized data fetching. Clients can retrieve multiple resources in a single request, reducing the number of round trips and minimizing over-fetching or under-fetching of data. Thus, graphQL reduces over fetching/under-fetching.
+* With GraphQL, clients have control over the data they receive, enabling schema evolution and avoiding the need for versioning. The server can add new fields or types without impacting existing clients.
+* Strongly Typed and Validated Queries: This results in improved developer experience, early error detection, and better collaboration between frontend and backend teams.
+--------------------------------------------
 ### MORE POINTS
 *  Used the GraphQL API in GraphiQL at http://localhost:PORT/graphql to test queries and mutations for adding, deleting, and updating users/projects.
 *  The application includes a home page that lists all the projects and a project information page that displays details about a specific project.
