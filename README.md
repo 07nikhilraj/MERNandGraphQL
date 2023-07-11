@@ -3,7 +3,9 @@
 This is a MERN (MongoDB, Express.js, React.js, Node.js) project that allows users to manage projects. It utilizes GraphQL for querying and mutating data, and includes features like user and project management, CRUD operations, and smooth data flow.
 
 ## Technologies Used
-
+- React
+- Node.js
+- Express.js
 - MongoDB
 - Mongoose
 - GraphQL
